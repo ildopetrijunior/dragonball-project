@@ -1,0 +1,54 @@
+ul {
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.3) ;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    
+    width: 180px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+
+    .button {
+        cursor: pointer;
+        background-color: #000000;
+
+        border: none;
+        width: 90px;
+        height: 90px;
+        transition: transform 0.3s ease;
+        border-radius: 100%;
+
+
+        img {
+            border-radius: 100%;
+            border: none;
+        }
+    }
+
+    .selected {
+        transform: scale(1.2);
+    }
+
+    .cyberstorm.selected{
+        box-shadow: 0 0 10px #47FFC5;
+    }
+    .codepixie.selected{
+        box-shadow: 0 0 10px #9747FF;
+    }
+    .hexblade.selected{
+        box-shadow: 0 0 10px #FFA947;
+    }
+    .neonpulse.selected{
+        box-shadow: 0 0 10px #E4309A;
+    }
+    .codebreaker.selected{
+        box-shadow: 0 0 10px #FFF047;
+    }
+}
