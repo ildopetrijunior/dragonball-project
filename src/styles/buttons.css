@@ -32,7 +32,7 @@ ul {
         }
     }
 
-    .selected {
+    .button.selected {
         transform: scale(1.2);
     }
 

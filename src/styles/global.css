@@ -24,3 +24,9 @@ h1 {
 p {
     font: var(--text-md);
 }
+
+img {
+    user-drag: none;
+    -webkit-user-drag: none;
+    pointer-events: auto;
+  }

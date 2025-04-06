@@ -20,7 +20,9 @@
     }
 
     ul {
+        line-height: 0;
         padding: 30px;
+        height: max-content;
         width: 100%;
         align-items: flex-end;
         flex-direction: row;

@@ -4,8 +4,6 @@ main {
         content: "";
         position: fixed;
         inset: 0;
-        top: 0;
-        left: 0;
 
         width: 80vh;
         background: linear-gradient(92deg, #000 25%, rgba(0, 0, 0, 0) 75%) no-repeat;
